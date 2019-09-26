@@ -1,3 +1,3 @@
-import MyComponent from './MyComponent';
+import TopDetectingNavbar from "./MyComponent";
 
-export default MyComponent;
+export default TopDetectingNavbar;

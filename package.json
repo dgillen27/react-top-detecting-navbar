@@ -1,17 +1,28 @@
 {
-  "name": "react-npm-package-boilerplate",
+  "name": "react-top-detecting-navbar",
   "version": "1.0.0",
-  "description": "Boilerplate to quickstart React component development",
+  "description": "UI component that detects if you are scrolled to the top of the page",
+  "license": "MIT",
+  "repository": "dgillen27/react-top-detecting-navbar",
+  "keywords": [
+    "react",
+    "npm",
+    "navbar",
+    "dgillen27",
+    "top-detecting",
+    "ui",
+    "page",
+    "top"
+  ],
   "main": "./dist/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.babel.js",
     "build-examples": "webpack --config examples/webpack.config.babel.js --progress",
     "clean": "rm -rf dist coverage",
-    "coverage": "jest --coverage",
     "lint": "eslint ./src",
     "prepublish": "npm run clean && npm run test && npm run build",
     "start": "webpack-dev-server --config examples/webpack.config.live.babel.js",
-    "test": "npm run lint && npm run coverage"
+    "test": "npm run lint"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
