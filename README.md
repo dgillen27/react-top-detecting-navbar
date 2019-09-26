@@ -52,6 +52,7 @@ These styles can be overwritten if you pass in props! TopDetectingNavBar accepts
 | **width**              | Number    | Assign a width to style of the the navbar in vw                                       |
 | **backgroundColor**    | String    | Assign a backgruondColor to the style of the navbar                                   |
 | **topBackgroundColor** | String    | Assign a backgruondColor to the style of the navbar when it is at the top of the page |
+| **style**              | Object    | Assign a style object to the navbar                                                   |
 
 ---
 

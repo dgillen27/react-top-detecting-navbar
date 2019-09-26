@@ -1,6 +1,6 @@
 {
   "name": "react-top-detecting-navbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "UI component that detects if you are scrolled to the top of the page",
   "license": "MIT",
   "repository": "dgillen27/react-top-detecting-navbar",
